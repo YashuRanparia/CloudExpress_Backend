@@ -46,10 +46,10 @@ app.post('/api/record', (req, res) => {
 
   const intervalCounterPath = path.join(__dirname, 'interval_cnt.txt');
   let currentFolder;
+  let intervalNum;
 
   const createFolder = async () => {
     try {
-
       if (!fs.existsSync(intervalCounterPath)) {
         intervalNum = 1;
         fs.writeFileSync(intervalCounterPath, intervalNum.toString());
