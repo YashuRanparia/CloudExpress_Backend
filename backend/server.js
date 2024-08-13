@@ -30,7 +30,7 @@ let interval_num = 1
 
 // app.use(cors({ origin: '*' }))
 app.use(cors({
-  origin: ['https://70bdfdf3.cloudexpress-player.pages.dev', 'https://04e01557.cloudexpress-frontend.pages.dev', 'http://127.0.0.1:5503'] // Replace with your allowed origins
+  origin: ['https://7805ae95.cloudexpress-player.pages.dev', 'https://dfb67854.cloudexpress-frontend.pages.dev', 'http://127.0.0.1:5503'] // Replace with your allowed origins
 }));
 
 // app.use(bodyParser.json());
