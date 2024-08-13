@@ -41,8 +41,7 @@ app.use(bodyParser.json({ limit: '50mb' })); // Adjust limit as needed
 //For sending events data to server
 app.post('/api/record', (req, res) => {
   const eventData = req.body;
-  // const sessionId = req.headers['session-id']
-  const eventsFolder = './record_data';
+  const eventsFolder = 'record_data';
 
   const intervalCounterPath = path.join(__dirname, 'interval_cnt.txt');
   let currentFolder;
