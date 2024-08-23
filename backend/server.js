@@ -31,7 +31,7 @@ let interval_num = 1
 
 // app.use(cors({ origin: '*' }))
 app.use(cors({
-  origin: ['http://127.0.0.1:5500','https://908fa98a.cloudexpress-player.pages.dev/', 'https://9b3205a3.cloudexpress-frontend.pages.dev/', 'http://127.0.0.1:5501'] // Replace with your allowed origins
+  origin: ['https://908fa98a.cloudexpress-player.pages.dev/', 'https://9b3205a3.cloudexpress-frontend.pages.dev/', 'http://127.0.0.1:5501'] // Replace with your allowed origins
 }));
 
 // app.use(bodyParser.json());
@@ -200,6 +200,16 @@ app.get('/api/replay/:interval', (req, res) => {
 //--------------------------Get method for last record----------------------------
 app.get('/api/last-recor-replay', (req, res) => {
   const recordDataPath = './last_record';
+
+  if (!fs.existsSync(recordDataPath)) {
+    fs.mkdirSync(recordDataPath);
+    console.log(`Folder created: ${recordDataPath}`);
+
+    // var counter = parseInt(sessionId);
+    var counter = intervalNum;
+    counter = counter + 1;
+    fs.writeFileSync(intervalCounterPath, counter.toString());
+  }
 
   fs.readdir(recordDataPath, (err, files) => {
     if (err) {
