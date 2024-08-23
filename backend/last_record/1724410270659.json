@@ -1,0 +1,292 @@
+{
+  "type": 3,
+  "data": {
+    "source": 0,
+    "texts": [],
+    "attributes": [
+      {
+        "id": 278,
+        "attributes": {
+          "style": {
+            "opacity": "0.0123",
+            "transform": "translate(-79.0193%, 0%) translate3d(0px, 0px, 0px) scale(0.9012, 0.9012)"
+          }
+        }
+      },
+      {
+        "id": 286,
+        "attributes": {
+          "style": {
+            "opacity": "0.0123",
+            "transform": "translate(79.0193%, 0%) translate3d(0px, 0px, 0px) scale(0.9012, 0.9012)"
+          }
+        }
+      },
+      {
+        "id": 235,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, -98.7741%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.0123"
+          }
+        }
+      },
+      {
+        "id": 273,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, -98.7741%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.0123"
+          }
+        }
+      },
+      {
+        "id": 270,
+        "attributes": {
+          "style": {
+            "transform": "translate(98.7741%, 0%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 267,
+        "attributes": {
+          "style": {
+            "transform": "translate(98.7741%, 0%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 264,
+        "attributes": {
+          "style": {
+            "transform": "translate(98.7741%, 0%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 261,
+        "attributes": {
+          "style": {
+            "transform": "translate(98.7741%, 0%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 257,
+        "attributes": {
+          "style": {
+            "transform": "translate(98.7741%, 0%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 252,
+        "attributes": {
+          "style": {
+            "transform": "translate(98.7741%, 0%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 249,
+        "attributes": {
+          "style": {
+            "transform": "translate(98.7741%, 0%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 246,
+        "attributes": {
+          "style": {
+            "transform": "translate(98.7741%, 0%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 242,
+        "attributes": {
+          "style": {
+            "transform": "translate(98.7741%, 0%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 908,
+        "attributes": {
+          "style": {
+            "opacity": "0.8764"
+          }
+        }
+      },
+      {
+        "id": 864,
+        "attributes": {
+          "style": {
+            "opacity": "0.8764"
+          }
+        }
+      },
+      {
+        "id": 820,
+        "attributes": {
+          "style": {
+            "opacity": "0.8764"
+          }
+        }
+      },
+      {
+        "id": 776,
+        "attributes": {
+          "style": {
+            "opacity": "0.8764"
+          }
+        }
+      },
+      {
+        "id": 732,
+        "attributes": {
+          "style": {
+            "opacity": "0.8764"
+          }
+        }
+      },
+      {
+        "id": 697,
+        "attributes": {
+          "style": {
+            "opacity": "0.8764"
+          }
+        }
+      },
+      {
+        "id": 656,
+        "attributes": {
+          "style": {
+            "opacity": "0.8764"
+          }
+        }
+      },
+      {
+        "id": 693,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, -7.4139%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 690,
+        "attributes": {
+          "style": {
+            "transform": "translate(-12.3564%, 0%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 687,
+        "attributes": {
+          "style": {
+            "transform": "translate(-15.5681%, 0%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 684,
+        "attributes": {
+          "style": {
+            "transform": "translate(-19.6146%, 0%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 681,
+        "attributes": {
+          "style": {
+            "transform": "translate(-24.7129%, 0%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 677,
+        "attributes": {
+          "style": {
+            "transform": "translate(-31.1362%, 0%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 672,
+        "attributes": {
+          "style": {
+            "transform": "translate(-39.2292%, 0%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 669,
+        "attributes": {
+          "style": {
+            "transform": "translate(-49.4257%, 0%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 666,
+        "attributes": {
+          "style": {
+            "transform": "translate(-62.2725%, 0%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 662,
+        "attributes": {
+          "style": {
+            "transform": "translate(-78.4584%, 0%) translate3d(0px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 86,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(8.0645px, -1.6256px, 0px) scale(0.9983, 0.9983)",
+            "opacity": "0.0144"
+          }
+        }
+      },
+      {
+        "id": 81,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(-13.0479px, 0.3632px, 0px) scale(0.9983, 0.9983)",
+            "opacity": "0.0144"
+          }
+        }
+      },
+      {
+        "id": 76,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(-3.0033px, 0.7523px, 0px) scale(0.9983, 0.9983)",
+            "opacity": "0.0144"
+          }
+        }
+      },
+      {
+        "id": 71,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(5.139px, 3.4039px, 0px) scale(0.9983, 0.9983)",
+            "opacity": "0.0144"
+          }
+        }
+      }
+    ],
+    "removes": [],
+    "adds": []
+  },
+  "timestamp": 1724410270659
+}

@@ -1,0 +1,33 @@
+{
+  "type": 3,
+  "data": {
+    "source": 1,
+    "positions": [
+      {
+        "x": 476,
+        "y": 83,
+        "id": 669,
+        "timeOffset": -227
+      },
+      {
+        "x": 477,
+        "y": 85,
+        "id": 669,
+        "timeOffset": -160
+      },
+      {
+        "x": 478,
+        "y": 85,
+        "id": 668,
+        "timeOffset": -76
+      },
+      {
+        "x": 480,
+        "y": 90,
+        "id": 668,
+        "timeOffset": -23
+      }
+    ]
+  },
+  "timestamp": 1724410268249
+}

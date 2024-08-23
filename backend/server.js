@@ -7,6 +7,7 @@ const path = require('path')
 const fs = require('fs');
 const Ajv = require('ajv');
 const { count } = require('console');
+const { getRandomStyleFromJSON } = require('./rl_algo.js');
 
 const ajv = new Ajv();
 
@@ -30,7 +31,7 @@ let interval_num = 1
 
 // app.use(cors({ origin: '*' }))
 app.use(cors({
-  origin: ['https://7805ae95.cloudexpress-player.pages.dev', 'https://dfb67854.cloudexpress-frontend.pages.dev', 'http://127.0.0.1:5503'] // Replace with your allowed origins
+  origin: ['http://127.0.0.1:5500','https://7805ae95.cloudexpress-player.pages.dev', 'https://dfb67854.cloudexpress-frontend.pages.dev', 'http://127.0.0.1:5501'] // Replace with your allowed origins
 }));
 
 // app.use(bodyParser.json());
@@ -107,41 +108,38 @@ app.post('/api/record', (req, res) => {
 });
 
 
-//-------------Get method without the validation for json files----------------------
-// app.get('/api/replay/:interval', (req, res) => {
-//   const interval = req.params.interval;
-//   const recordDataPath = './record_data'
-//   const intervalPath = path.join(recordDataPath, `interval_${interval}`);
+//For sending events data to server
+app.post('/api/last-record', (req, res) => {
+  const eventData = req.body;
+  const folderPath = 'last_record';
 
-//   fs.readdir(intervalPath, (err, files) => {
-//     if (err) {
-//       console.error('Error reading directory:', err);
-//       res.status(500).send('Error reading directory');
-//       return;
-//     }
 
-//     const filePromises = files.map(file => {
-//       const filePath = path.join(intervalPath, file);
-//       return new Promise((resolve, reject) => {
-//         fs.readFile(filePath, 'utf8', (err, data) => {
-//           if (err) {
-//             reject(err);
-//           } else {
-//             resolve(JSON.parse(data));
-//           }
-//         });
-//       });
-//     });
+  const savefiles = async () => {
 
-//     Promise.all(filePromises)
-//       .then(data => res.json(data))
-//       .catch(err => {
-//         console.error('Error reading files:', err);
-//         res.status(500).send('Error reading files');
-//       });
-//   });
-// });
+    eventData.forEach(event => {
+      const isValid = validateEvent(event);
+      if (isValid) {
+        const jsonString = JSON.stringify(event, null, 2);
+        fs.writeFile(`${folderPath}/${event.timestamp}.json`, jsonString, (err) => {
+          if (err) {
+            console.error('Error saving event:', err);
+            res.sendStatus(500); // Internal server error
+            return;
+          }
 
+          console.log(event)
+          console.log(`Event saved to file: ${event.timestamp}.json`);
+        });
+      }
+    });
+
+    res.sendStatus(201); // Created
+  }
+
+  // const timestamps = eventData.map(event => event.event.timestamp);
+
+  savefiles();
+});
 
 
 //--------------------------Get method with Json file validations----------------------------
@@ -199,6 +197,58 @@ app.get('/api/replay/:interval', (req, res) => {
 });
 
 
+//--------------------------Get method for last record----------------------------
+app.get('/api/last-recor-replay', (req, res) => {
+  const recordDataPath = './last_record';
+
+  fs.readdir(recordDataPath, (err, files) => {
+    if (err) {
+      console.error('Error reading directory:', err);
+      res.status(500).send('Error reading directory');
+      return;
+    }
+
+    const filePromises = files.map(file => {
+      const filePath = path.join(recordDataPath, file);
+
+      return new Promise((resolve, reject) => {
+        fs.stat(filePath, (err, stats) => {
+
+          if (err) {
+            reject(err);
+          } else if (stats.size === 0) {
+            console.warn(`Skipping empty file: ${filePath}`);
+            resolve(null);
+          } else {
+
+            fs.readFile(filePath, 'utf8', (err, data) => {
+              if (err) {
+                reject(err);
+              } else {
+                try {
+                  const parsedData = JSON.parse(data);
+                  resolve(parsedData);
+                } catch (error) {
+                  console.error(`Error parsing file ${filePath}:`, error);
+                  // Handle parsing error (e.g., send error response, log)
+                  resolve(null); // Or any default value
+                }
+              }
+            });
+          }
+        });
+      });
+    });
+
+    Promise.all(filePromises)
+      .then(data => res.json(data))
+      .catch(err => {
+        console.error('Error reading files:', err);
+        res.status(500).send('Error reading files');
+      });
+  });
+});
+
 
 //Get counter value
 app.get('/api/max-interval', (req, res) => {
@@ -222,32 +272,26 @@ app.get('/api/max-interval', (req, res) => {
 });
 
 
-
-//Get subfolder names
-const recordDataPath = path.join(__dirname, 'record_data');
-app.get('/api/record-data-folders', (req, res) => {
-  try {
-    const subfolders = fs.readdirSync(recordDataPath);
-    res.json(subfolders);
-  } catch (err) {
-    console.error('Error reading record data folder:', err);
-    res.status(500).send('Error reading record data folder');
-  }
-});
-
-
-// To delete the specified recorded data
-app.delete('/api/delete-folder/:folderName', (req, res) => {
-  const folderPath = path.join(recordDataPath, req.params.folderName);
+//Clear the folder
+app.delete('/api/delete-folder', (req, res) => {
+  // const folderPath = path.join(recordDataPath, req.params.folderName);
+  const folderPath = 'last_record';
 
   try {
     // Ensure the path is within the record_data directory
-    if (!folderPath.startsWith(recordDataPath)) {
+    if (!folderPath.startsWith(folderPath)) {
       return res.status(400).send('Invalid folder path');
     }
 
-    // Recursively delete the folder and its contents
-    fs.rmSync(folderPath, { recursive: true, force: true });
+    // Get a list of files within the folder
+    const files = fs.readdirSync(folderPath);
+
+    // Iterate through each file and delete it
+    for (const file of files) {
+      const filePath = path.join(folderPath, file);
+      fs.unlinkSync(filePath);
+    }
+
     res.sendStatus(204); // No content
   } catch (err) {
     console.error('Error deleting folder:', err);
@@ -255,24 +299,6 @@ app.delete('/api/delete-folder/:folderName', (req, res) => {
   }
 });
 
-
-//To update the counter in text file
-app.post('/update-counter', (req, res) => {
-  let increment = req.body['counterValue']; // Expecting { "increment": number } in the request body
-  increment = parseInt(increment)
-
-  if (typeof increment !== 'number') {
-    return res.status(400).json({ error: 'Invalid input' });
-  }
-
-  try {
-    fs.writeFileSync("interval_cnt.txt", increment.toString());
-    res.json({ increment });
-  } catch (err) {
-    console.error(err);
-    res.status(500).send('Error deleting folder');
-  }
-});
 
 
 app.get('/download/record-data', (req, res) => {
@@ -301,6 +327,22 @@ app.get('/download/record-data', (req, res) => {
   // Once the archive has been finalized, send it to the client
   res.download('Recorded_Data.zip');
 });
+
+
+// GET endpoint to return a random style dictionary
+app.get('/random-style', (req, res) => {
+
+  async function runner() {
+    const randomStyle = await getRandomStyleFromJSON();
+    res.json(randomStyle);
+  }
+  try{
+    runner()
+  }catch{
+    res.status(500)
+  }
+});
+
 
 
 app.use('/node_modules', express.static(path.join(__dirname, 'node_modules')));
