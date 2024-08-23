@@ -115,12 +115,7 @@ app.post('/api/last-record', (req, res) => {
 
   if (!fs.existsSync(folderPath)) {
     fs.mkdirSync(folderPath);
-    console.log(`Folder created: ${recordDataPath}`);
-
-    // var counter = parseInt(sessionId);
-    var counter = intervalNum;
-    counter = counter + 1;
-    fs.writeFileSync(intervalCounterPath, counter.toString());
+    console.log(`Folder created: ${folderPath}`);
   }
 
 
