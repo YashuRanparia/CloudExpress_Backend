@@ -111,7 +111,17 @@ app.post('/api/record', (req, res) => {
 //For sending events data to server
 app.post('/api/last-record', (req, res) => {
   const eventData = req.body;
-  const folderPath = 'last_record';
+  const folderPath = './last_record';
+
+  if (!fs.existsSync(folderPath)) {
+    fs.mkdirSync(folderPath);
+    console.log(`Folder created: ${recordDataPath}`);
+
+    // var counter = parseInt(sessionId);
+    var counter = intervalNum;
+    counter = counter + 1;
+    fs.writeFileSync(intervalCounterPath, counter.toString());
+  }
 
 
   const savefiles = async () => {
@@ -201,15 +211,15 @@ app.get('/api/replay/:interval', (req, res) => {
 app.get('/api/last-recor-replay', (req, res) => {
   const recordDataPath = './last_record';
 
-  if (!fs.existsSync(recordDataPath)) {
-    fs.mkdirSync(recordDataPath);
-    console.log(`Folder created: ${recordDataPath}`);
+  // if (!fs.existsSync(recordDataPath)) {
+  //   fs.mkdirSync(recordDataPath);
+  //   console.log(`Folder created: ${recordDataPath}`);
 
-    // var counter = parseInt(sessionId);
-    var counter = intervalNum;
-    counter = counter + 1;
-    fs.writeFileSync(intervalCounterPath, counter.toString());
-  }
+  //   // var counter = parseInt(sessionId);
+  //   var counter = intervalNum;
+  //   counter = counter + 1;
+  //   fs.writeFileSync(intervalCounterPath, counter.toString());
+  // }
 
   fs.readdir(recordDataPath, (err, files) => {
     if (err) {
