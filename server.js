@@ -31,7 +31,7 @@ let interval_num = 1
 
 // app.use(cors({ origin: '*' }))
 app.use(cors({
-  origin: ['https://829b6e37.cloudexpress-frontend.pages.dev/'] // Replace with your allowed origins
+  origin: ['https://56bae8c0.cloudexpress-frontend-3ck.pages.dev'] // Replace with your allowed origins
 }));
 
 // app.use(bodyParser.json());
