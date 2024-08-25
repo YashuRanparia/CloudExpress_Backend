@@ -1,0 +1,118 @@
+{
+  "type": 3,
+  "data": {
+    "source": 0,
+    "texts": [],
+    "attributes": [
+      {
+        "id": 822,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(49.9121px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 860,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 19.9668%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.0018"
+          }
+        }
+      },
+      {
+        "id": 178,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5007, 0.5007)",
+            "opacity": "0.0014"
+          }
+        }
+      },
+      {
+        "id": 173,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5008, 0.5008)",
+            "opacity": "0.0016"
+          }
+        }
+      },
+      {
+        "id": 168,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5009, 0.5009)",
+            "opacity": "0.0017"
+          }
+        }
+      },
+      {
+        "id": 163,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5009, 0.5009)",
+            "opacity": "0.0018"
+          }
+        }
+      },
+      {
+        "id": 866,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(1.8453px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 904,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 1.8453%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.9631"
+          }
+        }
+      },
+      {
+        "id": 186,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.9815, 0.9815)",
+            "opacity": "0.9631"
+          }
+        }
+      },
+      {
+        "id": 191,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.9656, 0.9656)",
+            "opacity": "0.9311"
+          }
+        }
+      },
+      {
+        "id": 196,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.9357, 0.9357)",
+            "opacity": "0.8715"
+          }
+        }
+      },
+      {
+        "id": 201,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.8801, 0.8801)",
+            "opacity": "0.7602"
+          }
+        }
+      }
+    ],
+    "removes": [],
+    "adds": []
+  },
+  "timestamp": 1724587220540
+}

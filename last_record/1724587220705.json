@@ -1,0 +1,100 @@
+{
+  "type": 3,
+  "data": {
+    "source": 0,
+    "texts": [],
+    "attributes": [
+      {
+        "id": 866,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(36.759px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 904,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 14.8211%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.2648"
+          }
+        }
+      },
+      {
+        "id": 201,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.6216, 0.6216)",
+            "opacity": "0.2433"
+          }
+        }
+      },
+      {
+        "id": 196,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.6275, 0.6275)",
+            "opacity": "0.2551"
+          }
+        }
+      },
+      {
+        "id": 191,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.6307, 0.6307)",
+            "opacity": "0.2614"
+          }
+        }
+      },
+      {
+        "id": 186,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.6324, 0.6324)",
+            "opacity": "0.2648"
+          }
+        }
+      },
+      {
+        "id": 910,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(15.6041px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 945,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 15.6041%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.6879"
+          }
+        }
+      },
+      {
+        "id": 209,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.844, 0.844)",
+            "opacity": "0.6879"
+          }
+        }
+      },
+      {
+        "id": 214,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.7088, 0.7088)",
+            "opacity": "0.4176"
+          }
+        }
+      }
+    ],
+    "removes": [],
+    "adds": []
+  },
+  "timestamp": 1724587220705
+}

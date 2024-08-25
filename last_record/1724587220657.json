@@ -1,0 +1,91 @@
+{
+  "type": 3,
+  "data": {
+    "source": 0,
+    "texts": [],
+    "attributes": [
+      {
+        "id": 866,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(19.5467px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 904,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 8.089%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.6091"
+          }
+        }
+      },
+      {
+        "id": 201,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.7797, 0.7797)",
+            "opacity": "0.5595"
+          }
+        }
+      },
+      {
+        "id": 196,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.7933, 0.7933)",
+            "opacity": "0.5867"
+          }
+        }
+      },
+      {
+        "id": 191,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.8006, 0.8006)",
+            "opacity": "0.6013"
+          }
+        }
+      },
+      {
+        "id": 186,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.8045, 0.8045)",
+            "opacity": "0.6091"
+          }
+        }
+      },
+      {
+        "id": 910,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(31.2083px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 945,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 31.2083%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.3758"
+          }
+        }
+      },
+      {
+        "id": 209,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.6879, 0.6879)",
+            "opacity": "0.3758"
+          }
+        }
+      }
+    ],
+    "removes": [],
+    "adds": []
+  },
+  "timestamp": 1724587220657
+}

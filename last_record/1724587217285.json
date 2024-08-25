@@ -1,0 +1,38 @@
+{
+  "type": 3,
+  "data": {
+    "source": 0,
+    "texts": [],
+    "attributes": [
+      {
+        "id": 910,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(43.3209px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 945,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 24.2368%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.1336"
+          }
+        }
+      },
+      {
+        "id": 209,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5668, 0.5668)",
+            "opacity": "0.1336"
+          }
+        }
+      }
+    ],
+    "removes": [],
+    "adds": []
+  },
+  "timestamp": 1724587217285
+}

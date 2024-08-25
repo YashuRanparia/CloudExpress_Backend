@@ -1,0 +1,65 @@
+{
+  "type": 3,
+  "data": {
+    "source": 0,
+    "texts": [],
+    "attributes": [
+      {
+        "id": 778,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0.1797px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 816,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 0.1797%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.9964"
+          }
+        }
+      },
+      {
+        "id": 140,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.9982, 0.9982)",
+            "opacity": "0.9964"
+          }
+        }
+      },
+      {
+        "id": 145,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.9966, 0.9966)",
+            "opacity": "0.9933"
+          }
+        }
+      },
+      {
+        "id": 150,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.9937, 0.9937)",
+            "opacity": "0.9875"
+          }
+        }
+      },
+      {
+        "id": 155,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.9883, 0.9883)",
+            "opacity": "0.9766"
+          }
+        }
+      }
+    ],
+    "removes": [],
+    "adds": []
+  },
+  "timestamp": 1724587219176
+}

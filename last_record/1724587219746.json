@@ -1,0 +1,91 @@
+{
+  "type": 3,
+  "data": {
+    "source": 0,
+    "texts": [],
+    "attributes": [
+      {
+        "id": 734,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(21.8482px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 772,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 8.7733%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.563"
+          }
+        }
+      },
+      {
+        "id": 132,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.7784, 0.7784)",
+            "opacity": "0.5568"
+          }
+        }
+      },
+      {
+        "id": 127,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.7801, 0.7801)",
+            "opacity": "0.5602"
+          }
+        }
+      },
+      {
+        "id": 122,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.781, 0.781)",
+            "opacity": "0.5621"
+          }
+        }
+      },
+      {
+        "id": 117,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.7815, 0.7815)",
+            "opacity": "0.563"
+          }
+        }
+      },
+      {
+        "id": 699,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(28.7175px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 728,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 28.7175%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.4257"
+          }
+        }
+      },
+      {
+        "id": 94,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.7128, 0.7128)",
+            "opacity": "0.4257"
+          }
+        }
+      }
+    ],
+    "removes": [],
+    "adds": []
+  },
+  "timestamp": 1724587219746
+}

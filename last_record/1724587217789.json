@@ -1,0 +1,167 @@
+{
+  "type": 3,
+  "data": {
+    "source": 0,
+    "texts": [],
+    "attributes": [
+      {
+        "id": 778,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(45.6538px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 816,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 18.3989%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.0869"
+          }
+        }
+      },
+      {
+        "id": 155,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5309, 0.5309)",
+            "opacity": "0.0617"
+          }
+        }
+      },
+      {
+        "id": 150,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5378, 0.5378)",
+            "opacity": "0.0756"
+          }
+        }
+      },
+      {
+        "id": 145,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5415, 0.5415)",
+            "opacity": "0.083"
+          }
+        }
+      },
+      {
+        "id": 140,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5435, 0.5435)",
+            "opacity": "0.0869"
+          }
+        }
+      },
+      {
+        "id": 734,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(43.279px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 772,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 24.0087%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.1344"
+          }
+        }
+      },
+      {
+        "id": 117,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5672, 0.5672)",
+            "opacity": "0.1344"
+          }
+        }
+      },
+      {
+        "id": 693,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 38.9582%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.2208"
+          }
+        }
+      },
+      {
+        "id": 699,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(35.6685px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 728,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 29.091%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.2866"
+          }
+        }
+      },
+      {
+        "id": 109,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5, 0.5)"
+          }
+        }
+      },
+      {
+        "id": 104,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5, 0.5)"
+          }
+        }
+      },
+      {
+        "id": 99,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5, 0.5)"
+          }
+        }
+      },
+      {
+        "id": 94,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.6433, 0.6433)",
+            "opacity": "0.2866"
+          }
+        }
+      },
+      {
+        "id": 658,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(38.9582px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 71,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.6104, 0.6104)",
+            "opacity": "0.2208"
+          }
+        }
+      }
+    ],
+    "removes": [],
+    "adds": []
+  },
+  "timestamp": 1724587217789
+}

@@ -1,0 +1,179 @@
+{
+  "type": 3,
+  "data": {
+    "source": 0,
+    "texts": [],
+    "attributes": [
+      {
+        "id": 699,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(49.9971px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 728,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 19.9991%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.0001"
+          }
+        }
+      },
+      {
+        "id": 109,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5, 0.5)",
+            "opacity": "0"
+          }
+        }
+      },
+      {
+        "id": 104,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5, 0.5)",
+            "opacity": "0"
+          }
+        }
+      },
+      {
+        "id": 99,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5, 0.5)",
+            "opacity": "0.0001"
+          }
+        }
+      },
+      {
+        "id": 94,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5, 0.5)",
+            "opacity": "0.0001"
+          }
+        }
+      },
+      {
+        "id": 734,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(49.8368px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 772,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 20.051%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.003"
+          }
+        }
+      },
+      {
+        "id": 117,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5015, 0.5015)",
+            "opacity": "0.003"
+          }
+        }
+      },
+      {
+        "id": 778,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(43.9872px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 816,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 19.0204%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.1203"
+          }
+        }
+      },
+      {
+        "id": 150,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5012, 0.5012)",
+            "opacity": "0.0023"
+          }
+        }
+      },
+      {
+        "id": 145,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5395, 0.5395)",
+            "opacity": "0.0791"
+          }
+        }
+      },
+      {
+        "id": 140,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5601, 0.5601)",
+            "opacity": "0.1203"
+          }
+        }
+      },
+      {
+        "id": 822,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(11.1878px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 860,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 11.1878%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.7762"
+          }
+        }
+      },
+      {
+        "id": 163,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.8881, 0.8881)",
+            "opacity": "0.7762"
+          }
+        }
+      },
+      {
+        "id": 168,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.7912, 0.7912)",
+            "opacity": "0.5825"
+          }
+        }
+      },
+      {
+        "id": 173,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.6104, 0.6104)",
+            "opacity": "0.2208"
+          }
+        }
+      }
+    ],
+    "removes": [],
+    "adds": []
+  },
+  "timestamp": 1724587220149
+}

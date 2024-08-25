@@ -1,0 +1,99 @@
+{
+  "type": 3,
+  "data": {
+    "source": 0,
+    "texts": [],
+    "attributes": [
+      {
+        "id": 910,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(47.4584px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 945,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 21.6122%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.0508"
+          }
+        }
+      },
+      {
+        "id": 209,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5254, 0.5254)",
+            "opacity": "0.0508"
+          }
+        }
+      },
+      {
+        "id": 866,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(34.5481px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 904,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 23.0904%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.309"
+          }
+        }
+      },
+      {
+        "id": 191,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5207, 0.5207)",
+            "opacity": "0.0414"
+          }
+        }
+      },
+      {
+        "id": 186,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.6545, 0.6545)",
+            "opacity": "0.309"
+          }
+        }
+      },
+      {
+        "id": 822,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(31.2083px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 860,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 31.2083%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.3758"
+          }
+        }
+      },
+      {
+        "id": 163,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.6879, 0.6879)",
+            "opacity": "0.3758"
+          }
+        }
+      }
+    ],
+    "removes": [],
+    "adds": []
+  },
+  "timestamp": 1724587217337
+}

@@ -1,0 +1,91 @@
+{
+  "type": 3,
+  "data": {
+    "source": 0,
+    "texts": [],
+    "attributes": [
+      {
+        "id": 658,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(48.0685px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 693,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 19.2274%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.0386"
+          }
+        }
+      },
+      {
+        "id": 86,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5193, 0.5193)",
+            "opacity": "0.0386"
+          }
+        }
+      },
+      {
+        "id": 81,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5193, 0.5193)",
+            "opacity": "0.0386"
+          }
+        }
+      },
+      {
+        "id": 76,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5193, 0.5193)",
+            "opacity": "0.0386"
+          }
+        }
+      },
+      {
+        "id": 71,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5193, 0.5193)",
+            "opacity": "0.0386"
+          }
+        }
+      },
+      {
+        "id": 699,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(46.3741px, 0px, 0px)"
+          }
+        }
+      },
+      {
+        "id": 728,
+        "attributes": {
+          "style": {
+            "transform": "translate(0%, 22.3%) translate3d(0px, 0px, 0px)",
+            "opacity": "0.0725"
+          }
+        }
+      },
+      {
+        "id": 94,
+        "attributes": {
+          "style": {
+            "transform": "translate3d(0px, 0px, 0px) scale(0.5363, 0.5363)",
+            "opacity": "0.0725"
+          }
+        }
+      }
+    ],
+    "removes": [],
+    "adds": []
+  },
+  "timestamp": 1724587218770
+}
