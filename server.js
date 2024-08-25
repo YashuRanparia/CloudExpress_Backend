@@ -303,9 +303,28 @@ app.get('/api/max-interval', (req, res) => {
 //Clear the folder
 app.delete('/api/delete-folder', (req, res) => {
   // const folderPath = path.join(recordDataPath, req.params.folderName);
-  const folderPath = 'last_record';
+  const folderPath = './last_record';
+
+  const createFolder = async () => {
+    try {
+      if (!fs.existsSync(folderPath)) {
+        fs.mkdirSync(folderPath);
+        console.log(`Folder created: ${folderPath}`);
+      }
+
+    } catch (err) {
+      console.error('Error creating folder:', err);
+      res.sendStatus(500);
+      return;
+    }
+  };
+
+  async function checkFolder() {
+    await createFolder();
+  }
 
   try {
+    checkFolder()
     // Ensure the path is within the record_data directory
     if (!folderPath.startsWith(folderPath)) {
       return res.status(400).send('Invalid folder path');
