@@ -7,7 +7,7 @@ async function csvToJSON(filepath) {
 }
 
 async function getRandomStyleFromJSON() {
-    jsonData = await csvToJSON('./updated_data.csv')
+    jsonData = await csvToJSON('./final.csv')
     // console.log(jsonData)
     // console.log(Object.keys(jsonData[0]))
     const attributes = Object.keys(jsonData[0])
