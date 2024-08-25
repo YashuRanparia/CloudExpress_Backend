@@ -113,13 +113,26 @@ app.post('/api/last-record', (req, res) => {
   const eventData = req.body;
   const folderPath = './last_record';
 
-  if (!fs.existsSync(folderPath)) {
-    fs.mkdirSync(folderPath);
-    console.log(`Folder created: ${folderPath}`);
-  }
+  const createFolder = async () => {
+    try {
+      if (!fs.existsSync(folderPath)) {
+        fs.mkdirSync(folderPath);
+        console.log(`Folder created: ${folderPath}`);
+      }
+
+    } catch (err) {
+      console.error('Error creating folder:', err);
+      res.sendStatus(500);
+      return;
+    }
+  };
+
+  
 
 
   const savefiles = async () => {
+
+    await createFolder();
 
     eventData.forEach(event => {
       const isValid = validateEvent(event);
